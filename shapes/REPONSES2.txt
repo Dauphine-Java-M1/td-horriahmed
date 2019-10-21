@@ -1,0 +1,37 @@
+Nom : HORRI Ahmed
+
+***************************************************TD encapsMuta***********************************************************************
+EXO 1:POINT
+
+1--> cela fonction car la foction system.out.println applique la fonction toString par deafut sur l'object point
+en plus la methode main est dna la meme classe ce qui fait a pu acceder au deux Attributs malgré ils sont privés.
+
+2--> y a une erreur sur les deux attributs p.x et p.y
+pour remedier l'erreur il faudra ajouter les fonctions public "getX" et "getY" et les appelées dans la methodes main comme suit :
+
+/** dans la fonction point**/
+
+public double getX() {
+	 return x;
+ }
+ 
+ public double getY() {
+	 return y;
+ }
+
+ /** dans la fonction main**/
+System.out.println(p.getX()+""+p.getY());
+
+3--> les attributs doivent restée privés, pour des raison de sécurité " les attributs en privés et les méthodes en public" c'est le concept de l'enacpsulation 
+
+4--> accesseeur : c'est les fonction "getNomAttribut" qui sont en publique et permettre d'acceder au attribut privé de la calsse dans n'importe quel classe.
+oui on doit les utiliser ici "getX()" et "getY()"
+
+5--> le constrectur par defaut marche plus il faut ajouter un ou modifier les parametre du constrecteur ...
+6--> il faut passé par parametre les valeur initial pour le constrecteur dans la classe main par exemeple 
+Point p =new Point(0.0,0.0);
+7--> il faut ajouter un Attribut static dans la calss Point et l'incremeter dans le constrecteur pour que a chaque creation de Point on 
+le incremente a un.
+8--> le compilateur sait quel constrecteur doit appler en comparant la siganteur de chaque constrecteur.
+
+  
