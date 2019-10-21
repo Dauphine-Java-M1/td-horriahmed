@@ -34,4 +34,15 @@ Point p =new Point(0.0,0.0);
 le incremente a un.
 8--> le compilateur sait quel constrecteur doit appler en comparant la siganteur de chaque constrecteur.
 
+Exo2:
+1--> il affiche True pour(p1==p2) et false pour (p1==p3) car system.out.print() elle fait appel a la fonction Equals() 
+par defaut qui compare l'addresse memoire.
+3--> ca retourner 1 pour p2 et -1 pour p3, il a returner 1 pour p2 car la mathode equals par defaut pour comprer si y a un element dans la 
+liste pou pas et comme p1 a la meme adresse que p2 alors il affiche l'index de p1
+
+pour regler le probleme il redefinire la class equals
+
+EXO3:
+
+
   

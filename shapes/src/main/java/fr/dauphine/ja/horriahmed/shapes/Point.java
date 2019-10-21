@@ -35,5 +35,18 @@ public class Point {
  public String toString() {
 	 return "("+this.x+","+this.y+")";
  }
+ 
+ public boolean isSameAs(Point p) {
+	 return (this.x==p.x && this.y==p.y);
+ }
+ 
+ @Override
+    public  boolean equals(Object obj ) {
+	if(obj instanceof Point)
+	return ( this.isSameAs((Point)obj)) ;
+	else 
+		return false;
+		
+ }
 }
 
