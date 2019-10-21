@@ -1,5 +1,7 @@
 package fr.dauphine.ja.horriahmed.shapes;
 
+import java.util.Objects;
+
 public class Point {
 	private double x;
 	private double y;
@@ -37,7 +39,10 @@ public class Point {
  }
  
  public boolean isSameAs(Point p) {
+   
 	 return (this.x==p.x && this.y==p.y);
+  
+	
  }
  
  @Override
@@ -48,5 +53,8 @@ public class Point {
 		return false;
 		
  }
-}
+ 
 
+	 
+ 
+}

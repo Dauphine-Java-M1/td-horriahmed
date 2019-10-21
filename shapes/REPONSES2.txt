@@ -43,6 +43,12 @@ liste pou pas et comme p1 a la meme adresse que p2 alors il affiche l'index de p
 pour regler le probleme il redefinire la class equals
 
 EXO3:
-
-
+1--> si on n'ajoute pas la cpacité du tableau on peut pas creer le tableau , et si on n'ajoute pas le nombre de points ajoutées o peut pas
+parcourir le tableau.
+5--> si on on fait passé null en argument on aurra une erreur dans la mathodes isSameAs() car elle traite pas le cas ou le l'arrgument est
+ null, meme si on rajoute add(null) avant.
+6--> pointCpacity : on pourra la supprimer car likedList a une capacité infinie.
+     nbPoints:renvoie la tille de la liste "list.size()";
+     contains:on pourra utiliser la methodes contains() de la classe linkedList pour tester si un points est dans la liste ou pas.
+	
   
