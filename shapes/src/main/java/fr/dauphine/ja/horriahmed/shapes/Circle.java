@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 public class Circle {
 	// les Attributs
-	private Point centre;
-	private double rayon;
+	protected Point centre;
+	protected double rayon;
 	
 	
 	public Circle(Point p,double r) {
@@ -43,5 +43,9 @@ public class Circle {
 				return true;
 		}
 		return false;
+	}
+	
+	public double getRayon() {
+		return rayon;
 	}
 }

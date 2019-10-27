@@ -58,4 +58,8 @@ Exo4:
 -->6)
 -->9) oui on doit la faire comme une methodes static car on a pas besoin d'instencier la classe pour appler la methodes.
 
+EXO5: ANNEAUX
+-->1) oui on doit utilisé l'héritage car un Anneaux est un sorte de circle.
+-->4) le probleme sans code supplémentaire est que on affiche pas le rayon interne .
+
   
