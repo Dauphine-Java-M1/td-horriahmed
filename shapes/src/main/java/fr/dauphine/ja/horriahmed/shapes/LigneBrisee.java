@@ -54,5 +54,7 @@ public class LigneBrisee {
 			return (points.contains(p));
 		else return false;
 	}
+	
+
 
 }

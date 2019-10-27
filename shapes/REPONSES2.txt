@@ -51,4 +51,11 @@ parcourir le tableau.
      nbPoints:renvoie la tille de la liste "list.size()";
      contains:on pourra utiliser la methodes contains() de la classe linkedList pour tester si un points est dans la liste ou pas.
 	
+
+Exo4:
+-->1) elle peut avoir deux signatures "public void translate(double px, double py)" et "public Point translate(Point p)".
+-->5)
+-->6)
+-->9) oui on doit la faire comme une methodes static car on a pas besoin d'instencier la classe pour appler la methodes.
+
   

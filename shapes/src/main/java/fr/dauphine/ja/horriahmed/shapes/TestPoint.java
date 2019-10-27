@@ -23,6 +23,15 @@ public class TestPoint {
 	ligneB.Add(p3);
 	
 	System.out.println(ligneB.contains(null));
+	
+	Circle c =new Circle(p1, 1);
+	Circle c2 =new Circle(p1,2);
+	c2.translate(1, 1);
+	c.getCentre().translate(1,1);
+	
+	System.out.println(c+"   "+c2);
+	
+	
 	  	     
 	  }
 }
