@@ -1,2 +1,48 @@
 Nom:HORRI Ahmed
 
+************************************************TD00***************************************************************************************
+Exo 1:
+-->4- version de maven 3.6.0
+-->5groupId: permet de donner un idetifaint de groupe au projet, Cette clé permet d'organiser et de retrouver plus facilement et 
+rapidement le projet .
+artifactId : permet de donner un nom unique  au projet, utilisé pour nommer les artifacts à construire.
+-->6 le fichier target contient les classes et les testes-classes.
+-->8- Classpath est un paramètre passé à une machine virtuelle Java qui définit le chemin d'accès au répertoire où se trouvent les 
+classes et les packages Java afin qu'elle les exécute.
+-->13  maven.compiler.target: elle permet de specifier la version du compilateur Java utilisee pour compiler les targets.
+
+EXO2 :
+-->1 on ne peux pas specifier le jar,il faudra specifier le nom de la classe a exécuter (mainClasse)
+
+EXO3 :
+3-->quand on fait systout + ctrl + espace ca affiche la fonction system.out.print().
+4-->quand on fait toStr + ctrl + espace ca affiche rien !! (je pensais que ca vas afficher la fonction toString ...)
+5-->quand on fait systout + ctrl + espace ca affiche la fonction main(args).
+6--> get + ctrl + espace ca cree la fonction getNomAttribut(), avec NomAttribut:l'attribut de la classe local.
+
+
+
+************************************************TP JUNIT GIT*********************************
+EXO1:Git en ligne de commande 
+
+2--> l'essemble de fichier source est : le fichier REPONSES.txt et la classe PrimeCollection.java
+5--> quand on tape la commande git diff le terminal nous montre la difference entre la dernier commit(afficher en vert) et l'avant dernier
+ commit (afficher en rouge) dans cette exemple il a afficher:
+- p.initRandom(10, 100);
++ p.initRandom(10, 20000);
+
+10--> git diff HEAD^ HEAD permet d'afficher la difference entre le derneir commit et l'avant dernier commit.
+
+
+
+
+
+
+
+
+-->2 la fonction AssertTrue() elle prend en parametre un boolean et elle affirme que la condition est vraie , dans le cas ou on met un boolean a false 
+elle les testes unitaires seront faux
+
+
+
+
