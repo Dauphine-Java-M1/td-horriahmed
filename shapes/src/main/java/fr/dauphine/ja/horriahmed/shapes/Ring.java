@@ -41,4 +41,8 @@ public class Ring extends Circle {
 			}
 			return false;
 		}
+		
+		public double getRayonInterne() {
+			return rayonInterne;
+		}
 }
