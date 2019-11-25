@@ -62,4 +62,16 @@ EXO5: ANNEAUX
 -->1) oui on doit utilisé l'héritage car un Anneaux est un sorte de circle.
 -->4) le probleme sans code supplémentaire est que on affiche pas le rayon interne .
 
+************************************************************************TD02:MVC************************************************************
+
+Exo1:Vue
+5--> 
+6-->Swing est une boîte à outils de widgets d’interface graphique pour Java qui est une extension de AWTmasi AWT est la boîte à outils 
+de widgets d’interface utilisateur originale de Java, dépendante de la plate-forme
+
+
+Exo2:Modèle
+
+
+
   
